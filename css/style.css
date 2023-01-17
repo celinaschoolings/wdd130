@@ -1,12 +1,25 @@
-body {
+h1 {
     text-align: center;
     }
 
-nav {
+p {
+    text-align: center;
+    padding: 10px;
+    }
+      
+nav, footer {
+    text-align: center;
     background-color: steelblue;
     padding: 10px;
     }
+
+a:hover {
+    background-color: white;
+    color: steelblue;
+    }
+    
 a {
+     font-size: 1em;
     color: white;
     margin: 40px;
     line-height: 1.5em;
@@ -17,6 +30,8 @@ h1, h2 {
     }
 img {
     width: 800px;
+    display: block;
+    margin: 0 auto;   
     border: 4px solid steelblue;
     }
 p {
@@ -26,4 +41,9 @@ p {
 #active {
     background-color: white;
     color: steelblue;
+    }
+
+img {
+    width: 35%;
+    border: 4px solid steelblue;
     }
