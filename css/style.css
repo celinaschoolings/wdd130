@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Playfair+Display&display=swap');
+
+
 h1 {
     text-align: center;
+    font-family: 'Playfair Display', 'Manrope', Helvetica, sans-serif;
     }
 
 p {
@@ -62,4 +66,6 @@ footer p {
 
 body {
     margin: 0;
+    font-family: 'Manrope', Helvetica, sans-serif;
+    font-size: 22px;
     }

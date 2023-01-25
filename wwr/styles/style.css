@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Playfair+Display&display=swap');
+
+
 content {
   max-width: 1600px;
   margin: 0 auto;
@@ -10,9 +13,13 @@ content {
 .logo {
   width: 80px;
   }
+#logo_link {   
+  padding-top: 5px;
+  }
 
 .icon {
   width: 80px;
+  padding-top: 10px;
   }
 
 #hero-img {
@@ -22,6 +29,7 @@ content {
 
 #hero-msg h1, #hero-msg h4 {
   text-align: center;
+  color: #022E4F;
   }
 
 .button-box {
@@ -31,10 +39,17 @@ content {
 main section {
   text-align: center;
   }
+main section img {
+  box-sizing: border-box;
+  }
 
 
 body {
   background-color: #fcfbfb;
+  font-family: 'Manrope', Helvetica, sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
   }
 header{
   background-color: #022E4F;
@@ -44,6 +59,7 @@ nav a {
   text-align: center;
   color: #fcfbfb;
   text-decoration: none;
+  padding: 35px;
   }
 nav a:hover {
   background-color: #022E4F;
@@ -51,17 +67,28 @@ nav a:hover {
   }
 
 .home-title {
-  color: #fcfbfb
+  color: #fcfbfb;
+  font-family: 'Playfair Display', Helvetica, sans-serif;
+  font-size: 2em;
+  margin-top: 10px;
   }
 
 h4 {
   color: #fcfbfb
   }
 
+h2 {
+  margin: 0;
+  }
+
 .book, .join {
   background-color: #fcfbfb;
   color: #022E4F;
   text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
   }
 .book:hover, .join:hover {
   background-color: #fcfbfb;
@@ -73,18 +100,33 @@ h4 {
   }
 
 .msg {
-  background-color: #fcfbfb;
+  background-color: #396E94;
+  line-height: 1.5em;
+  padding: 35px;
   }
 .msg h2{
-  color: #396E94
+  color: white;
   } 
  .msg p{
-  color: #396E94
+  color: white;
+  font-size: .8em;
+  padding-bottom: 15px;
+  }
+
+
+.rivers-card, .camping-card, .rapids-card, .mountains {
+  margin: 200px 0;
+}
+
+.card-img {
+  border: 10px solid #022E4F;
   }
 
 footer{
   background-color: #396E94;
-  color: #fcfbfb
+  color: #fcfbfb;
+  padding: 25px 50px;
+  margin-top: 200px;
   }
 footer a {
   color: #fcfbfb;
