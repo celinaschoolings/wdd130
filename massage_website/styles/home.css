@@ -88,21 +88,37 @@ h1 {
     }
 
 .ending{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: space-between;
     background-color: #D3D3D3;
     margin-top: -125px;
-}    
+    }  
     .profile{
-    width: 600px;
-    height: auto;
-    border-radius: 8px;
-    grid-column: 1/2;
-     }
-    .profile_msg {
+        width: 600px;
+        height: auto;
+        border-radius: 8px;
+        padding: 50px;
+    }
+    .qualifications {
+        padding-top: 200px;
+        padding-bottom: 200px;
 
     }
+    .profile_msg {
+        margin: 0;
+        color: #06ac95;
+        font-family: Cabin, sans-serif;
+        font-size: 25px;
+        list-style: circle;
+        list-style-position: outside;
 
+    }
+        h2 {
+            margin: 0;
+            color: #06ac95;
+            font-family: Raleway, Cabin;
+            font-size: 30px;
+            }
 
 
 
@@ -111,9 +127,8 @@ h1 {
 
 footer {
     background-color: #ccefea;
-    display: grid;
-    justify-content: space-between;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: end;
     height: 95px;
     margin: 0;
     }
