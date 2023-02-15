@@ -3,11 +3,43 @@
 content {
     max-width: 1600px;
     margin: 0 auto;
+    background-color: #ccefea;
     }
 
+    --heading-font: Raleway, Cabin;
+    --paragraph-font: Nunito, Cabin, sans-serif;
+    primary-color: #06ac95;
+    secondary-color: #CCEFEA;
+    accent1-color: #7DD5C3;
+    accent2-color: #A4EC84;
 
+header{
+    background-color: #06ac95;
+    display: grid;
+    grid-template-columns: 200px auto 400px;
+    }    
+.logo {
+    grid-column: 1/2;
+    width: auto;
+    }
+nav{
+    color:#06ac95;
+    font-size: 24px;
+    font-family: Raleway, Cabin;    
+    grid-column: 3/4;
+    display: flex;
+    justify-content: center;
+    }
 
+h1 {
+    color: #06ac95;
+    background-color: white;
+    font-family: Raleway, Cabin;
+    text-align: center;
+    height:200px;
+    width: auto;
 
+}
 
 
 
