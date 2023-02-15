@@ -46,33 +46,41 @@ nav a:hover {
 
 .top {
     display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
     margin: 0;
 }
     
 h1 {
     margin: 0;
+    grid-row: 1/7;
+    grid-column: 1/2;
+    z-index: -1;
     color: #06ac95;
     font-family: Raleway, Cabin;
     font-size: 40px;
     text-align: center;
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 200px;
     width: auto;
     background-image:url(../images/background.jpg);
     }
     
 .button {
-  display: flex;
-  justify-content: center;
-  background-color: #D3D3D3;
-  font-family: Cabin, san-serif;    
-  border: none;
-  border-radius: 12px;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 20px;
+    grid-column: 1/2;
+    grid-row: 4/5;
+    justify-self: center;
+    background-color: #D3D3D3;
+    font-family: Cabin, san-serif;    
+    border: none;
+    border-radius: 12px;
+    padding: 15px 32px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    width: 90px;
+    height: 27px;
+    font-size: 20px;
     }
     .book{
         text-decoration: none;
