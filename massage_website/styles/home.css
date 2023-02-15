@@ -90,6 +90,8 @@ h1 {
     .profile{
         width: 600px;
         height: auto;
+        max-width: 600px;
+        max-height: 600px;
         border-radius: 8px;
         padding: 50px;
     }

@@ -9,8 +9,7 @@ content {
     paragraph-font: Nunito, Cabin, sans-serif;
     primary-color: #06ac95;
     secondary-color: #CCEFEA;
-    accent1-color: #7DD5C3;
-    accent2-color: #A4EC84; */
+    accent1-color: #7DD5C3; */
 
 header{
     background-color: #ccefea;
@@ -45,6 +44,11 @@ nav a:hover {
     text-decoration: underline;
     }
 
+.top {
+    display: grid;
+    margin: 0;
+}
+    
 h1 {
     margin: 0;
     color: #06ac95;
@@ -58,6 +62,8 @@ h1 {
     }
     
 .button {
+  display: flex;
+  justify-content: center;
   background-color: #D3D3D3;
   font-family: Cabin, san-serif;    
   border: none;
