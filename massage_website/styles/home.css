@@ -91,14 +91,17 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: #D3D3D3;
-    margin: -125px;
+    margin-top: -125px;
 }    
     .profile{
     width: 600px;
     height: auto;
     border-radius: 8px;
+    grid-column: 1/2;
      }
+    .profile_msg {
 
+    }
 
 
 
@@ -109,12 +112,25 @@ h1 {
 footer {
     background-color: #ccefea;
     display: grid;
+    justify-content: space-between;
     grid-template-columns: 1fr 1fr;
-    height: 90px;
-    padding-left: 25px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    height: 95px;
+    margin: 0;
     }
+    .plan {
+        font-family: Raleway, Cabin, san-serif; 
+        font-size: 20px;
+        color:#06ac95;   
+        grid-column: 2/3;
+        text-decoration: none;
+        text-align: end;
+        padding-top: 35px;
+        padding-right: 25px;
+    }
+        .plan:hover {    
+            color: black;
+            text-decoration: underline;
+            }
 
 
     @media screen and (max-width: 900px) {
