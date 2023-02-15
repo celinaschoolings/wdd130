@@ -2,6 +2,8 @@
 
 content {
     max-width: 1600px;
+    width:100%;
+    height:auto;
     margin: 0 auto;
     }
 
@@ -46,20 +48,42 @@ nav a:hover {
     }
 
 h1 {
+    margin: 0;
     color: #06ac95;
-    background-color: white;
     font-family: Raleway, Cabin;
     font-size: 40px;
     text-align: center;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     width: auto;
+    background-image:url(../images/background.jpg);
     }
 
-.hand{
- width: 600px;
- height: auto;
-}
+    
+
+.middle{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    padding: 100px;
+    }
+    .hand{
+    display: flex;
+    grid-column: 1/5;
+    grid-row: 1/6;
+    width: 1000px;
+    height: auto;
+    }
+    .hand_msg{
+        grid-column: 4/7;
+        grid-row: 2/5;
+        font-family: Cabin, sans-serif;
+        color:#06ac95;
+        background-color: #D3D3D3;
+        padding: 50px;
+        border-radius: 8px;
+        font-size: 30px;
+    }
 
 .profile{
     width: 600px;
@@ -73,7 +97,15 @@ h1 {
 
 
 
-
+footer {
+    background-color: #ccefea;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    }
 
 
     @media screen and (max-width: 900px) {
