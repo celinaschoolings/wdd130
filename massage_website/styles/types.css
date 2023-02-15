@@ -43,7 +43,7 @@ nav a{
 nav a:hover {
     color: #7dd5c3;
     text-decoration: underline;
-}
+    }
 
 h1 {
     margin: 0;
@@ -75,9 +75,8 @@ h1 {
 
 footer {
     background-color: #ccefea;
-    display: grid;
-    justify-content: space-between;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: end;
     height: 95px;
     margin: 0;
     }

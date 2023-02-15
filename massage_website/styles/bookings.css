@@ -91,9 +91,8 @@ h1 {
 
 footer {
     background-color: #ccefea;
-    display: grid;
-    justify-content: space-between;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: end;
     height: 95px;
     margin: 0;
     }
@@ -112,6 +111,8 @@ footer {
             text-decoration: underline;
             }
 
+
+            
     @media screen and (max-width: 900px) {
         #hero, .home-grid {
             display: block;
