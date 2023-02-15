@@ -80,15 +80,24 @@ h1 {
         font-family: Cabin, sans-serif;
         color:#06ac95;
         background-color: #D3D3D3;
-        padding: 50px;
+        padding-top: 50px;
+        padding-right: 50px;
+        padding-left: 50px;
         border-radius: 8px;
         font-size: 30px;
     }
 
-.profile{
+.ending{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #D3D3D3;
+    margin: -125px;
+}    
+    .profile{
     width: 600px;
     height: auto;
-   }
+    border-radius: 8px;
+     }
 
 
 
