@@ -89,7 +89,38 @@ nav a:hover {
         text-decoration: underline;
     }
 
+.pricing{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -125px;
+    }  
+    .massage_img{
+        width: 600px;
+        height: auto;
+        max-width: 600px;
+        max-height: 600px;
+        padding: 50px;
+    }
+    .pricing {
+        padding-top: 200px;
+        padding-bottom: 200px;
 
+    }
+    .pricing_msg {
+        margin: 0;
+        color: #06ac95;
+        font-family: Cabin, sans-serif;
+        font-size: 25px;
+        list-style: circle;
+        list-style-position: outside;
+
+    }
+        h2 {
+            margin: 0;
+            color: #06ac95;
+            font-family: Raleway, Cabin;
+            font-size: 30px;
+            }
 
 
 
