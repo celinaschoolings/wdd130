@@ -5,13 +5,6 @@ content {
     margin: 0 auto;
     }
 
-    /* heading-font: Raleway, Cabin;
-    paragraph-font: Nunito, Cabin, sans-serif;
-    primary-color: #06ac95;
-    secondary-color: #CCEFEA;
-    accent1-color: #7DD5C3;
-    accent2-color: #A4EC84; */
-
 header{
     background-color: #ccefea;
     display: grid;
@@ -43,7 +36,7 @@ nav a{
 nav a:hover {
     color: #7dd5c3;
     text-decoration: underline;
-    }
+    }    
 
 h1 {
     margin: 0;
@@ -57,10 +50,96 @@ h1 {
     background-image:url(../images/background.jpg);
     }
 
+h2 {
+    margin: 0;
+    color: #06ac95;
+    font-family: Raleway, Cabin;
+    font-size: 50px;
+    padding-bottom: 10px;
+    }
 
+ .swedish {
+    display: flex;
+    justify-content: center;
+ }   
+    .swedish_img {
+        justify-self: start;
+        height: auto;
+        max-width: 600px;
+        max-height: 600px;
+        border-radius: 8px;
+        padding: 50px;
+    }
+    .swedish_body {
+        justify-self: end;
+        padding-top: 200px;
+        padding-bottom: 200px;
 
+    }
+    .swedish_msg {
+        margin: 0;
+        color: #06ac95;
+        font-family: Cabin, sans-serif;
+        font-size: 30px;
+        list-style: circle;
+        list-style-position: outside;
+    }
 
+.sports {
+    display: flex;
+    justify-content: center;
+}
+    .sports_img {
+        justify-self:end;
+        height: auto;
+        max-width: 800px;
+        max-height: 800px;
+        border-radius: 8px;
+        padding: 50px;
+    }
+    .sports_body {
+        justify-self: start;
+        padding-top: 200px;
+        padding-bottom: 200px;
 
+    }
+    .sports_msg {
+        margin: 0;
+        color: #06ac95;
+        font-family: Cabin, sans-serif;
+        font-size: 30px;
+        list-style: circle;
+        list-style-position: outside;
+        direction: rtl;
+    }
+
+.aroma{
+    display: flex;
+    justify-content: center;
+}    
+    .aroma_img {
+        justify-self: start;
+        height: auto;
+        max-width: 600px;
+        max-height: 600px;
+        border-radius: 8px;
+        padding: 50px;
+    }
+    .aroma_body {
+        justify-self: end;
+        padding-top: 200px;
+        padding-bottom: 200px;
+
+    }
+    .aroma_msg {
+        margin: 0;
+        color: #06ac95;
+        font-family: Cabin, sans-serif;
+        font-size: 30px;
+        list-style: circle;
+        list-style-position: outside;
+
+    }
 
 
 

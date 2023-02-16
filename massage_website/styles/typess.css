@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Nunito:wght@300&family=Raleway:wght@300&display=swap');
+
+content {
+    max-width: 1600px;
+    margin: 0 auto;
+    }
+
+header{
+    background-color: #ccefea;
+    display: grid;
+    grid-template-columns: 150px auto;
+    height: 90px;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    }    
+.logo {
+    grid-column: 1/2;
+    width: 90px;
+    }
+nav {
+    display: flex;
+    justify-content: end;
+    grid-column: 2/3;
+    }
+nav a{
+    color:#06ac95;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Raleway, Cabin, san-serif;    
+    grid-column: 3/4;
+    text-align: right;
+    margin-right: 50px;
+    padding-top: 33px;
+    }
+nav a:hover {
+    color: #7dd5c3;
+    text-decoration: underline;
+    }    
+
+h1 {
+    margin: 0;
+    color: #06ac95;
+    font-family: Raleway, Cabin;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: auto;
+    background-image:url(../images/background.jpg);
+    }
+
+/* .types {
+    display: grid;
+    grid-template-columns: 400px 200px 400px;
+    grid-template-rows: 800px 600px 800px;
+    margin: 0;
+}    */
+
+h2 {
+    margin: 0;
+    color: #06ac95;
+    font-family: Raleway, Cabin;
+    font-size: 30px;
+    }
+
+    
+    .swedish_img {
+        grid-column: 1/4;
+        grid-row: 1/2;
+        height: auto;
+        max-width: 600px;
+        max-height: 800px;
+        border-radius: 8px;
+        padding: 50px;
+    }
+    .swedish_body {
+        grid-column: 4/6;
+        grid-row: 1/2;
+        padding-top: 200px;
+        padding-bottom: 200px;
+
+    }
+    .swedish_msg {
+        margin: 0;
+        color: #06ac95;
+        font-family: Cabin, sans-serif;
+        font-size: 25px;
+        list-style: circle;
+        list-style-position: outside;
+    }
+
+
+    .sports_img {
+        grid-column: 4/6;
+        grid-row: 2/3;
+        height: auto;
+        max-width: 800px;
+        max-height: 800px;
+        border-radius: 8px;
+        padding: 50px;
+    }
+    .sports_body {
+        grid-column: 1/4;
+        grid-row: 2/3;
+        padding-top: 200px;
+        padding-bottom: 200px;
+
+    }
+    .sports_msg {
+        margin: 0;
+        color: #06ac95;
+        font-family: Cabin, sans-serif;
+        font-size: 25px;
+        list-style: circle;
+        list-style-position: outside;
+        direction: rtl;
+    }
+
+    .aroma_img {
+        grid-column: 1/4;
+        grid-row: 3/4; 
+        height: auto;
+        max-width: 600px;
+        max-height: 800px;
+        border-radius: 8px;
+        padding: 50px;
+    }
+    .aroma_body {
+        grid-column: 4/6;
+        grid-row: 3/4;
+        padding-top: 200px;
+        padding-bottom: 200px;
+
+    }
+    .aroma_msg {
+        margin: 0;
+        color: #06ac95;
+        font-family: Cabin, sans-serif;
+        font-size: 25px;
+        list-style: circle;
+        list-style-position: outside;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #ccefea;
+    display: flex;
+    justify-content: end;
+    height: 95px;
+    margin: 0;
+    }
+    .plan {
+        font-family: Raleway, Cabin, san-serif; 
+        font-size: 20px;
+        color:#06ac95;   
+        grid-column: 2/3;
+        text-decoration: none;
+        text-align: end;
+        padding-top: 35px;
+        padding-right: 25px;
+    }
+        .plan:hover {    
+            color: black;
+            text-decoration: underline;
+            }
+
+            
+
+    @media screen and (max-width: 900px) {
+        #hero, .home-grid {
+            display: block;
+            height: auto;
+        }
+        nav, footer {
+            flex-direction: column;
+        }
+        nav a {
+            display: block;
+            padding: 15px;
+        }
+        #hero {
+            margin-top: 0;
+        }
+        #hero-msg {
+            margin-top: 0;
+        }
+        #hero-msg h4 {
+            display: none;
+        }
+        .home-title {
+            font-size: 25px;
+            color: #6f7364;
+        }
+        .rivers-card, .camping-card, .rapids-card { 
+            margin: 50px auto;
+            width: 60%;
+        }
+        #background {
+            display: none;
+        }
+        .mountains, .msg {
+            width: 80%;
+            display: block;
+            margin: 0 auto;
+        }
+        footer {
+            margin-top: 25px;
+        }
+    }
